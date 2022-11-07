@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admision information</title>
+  
+     <link href="/static/css/eu.css" rel="stylesheet">
+     <link href="/static/css/dep.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="add_it">
+       
+
+
+          
+        <div class="nav">
+            <a href="{{url_for("index")}}"><img src="static/image/logo.png"></a>
+             <div class="e_name">
+
+                <h1>Eastern University</h1>
+            </div> 
+            
+            <div class="nav_link" id="navLinks">
+                <div class="sc">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+            </div>
+
+                <ul>
+                    <li class="active"><a href="{{url_for("index")}}"><i class="fa fa-home"></i>HOME</a></li>
+                    <li> <a href=""><i class="fa fa-user"></i>ABOUT</a>
+                    
+                    
+                    
+            <div class="submenu_1">
+
+                <ul>
+    
+                    <li> <a href="{{url_for("eu_profile")}}">Eu profile</a></li>
+                    <li> <a href="{{url_for("trusty")}}">Trusty board</a></li>
+                    <li> <a href="{{url_for("authority")}}">Authority</a></li>
+                </ul>
+            </div>
+                    
+                    </li>
+                    <li> <a href="{{url_for("course")}}"> <i class="fa fa-clone"></i>ACADEMIC</a>
+                    
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("course")}}">COURSE</a></li>
+                                <li class="hover_me"> <a href="">ADMISSION</a><i class="fa fa-angle-right"></i>
+
+                                    <div class="submenu_2">
+
+                            
+                                        <ul>
+                            
+                                            <li> <a href="{{url_for("tution")}}">TUTION AND FEES</a></li>
+                                            <li> <a href="{{url_for("register")}}">Registration FORM</a></li>
+                                            <li> <a href="{{url_for("cse")}}">PROGRAM</a></li>
+                                            <li> <a href="{{url_for("admission_in")}}">ADMISSION INFORMAITION</a></li>
+
+
+                                        </ul>
+                                                   
+                                    </div>
+
+                                
+                                
+                                
+                                
+                                </li>
+                                <li class="hover_me"> <a href="">FACULTY</a><i class="fa fa-angle-right"></i>
+                                
+                                
+                                <div class="submenu_2">
+                                 
+                                        <ul>
+                                           <<li> <a href="{{url_for("law")}}"> ET</a></li>
+                                           <li> <a href="{{url_for("llb")}}"> Law</a></li>
+                                           <li> <a href="{{url_for("bba")}}"> BBA</a></li>
+                                           <li> <a href="#">English </a></li> 
+
+                                       </ul>
+                                
+                                
+                                </div>
+                                
+                                </li>
+                                
+                               
+                            </ul>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    </li>
+                   
+
+                    <li> <a href="blog.html"> <i class="fa fa-angellist"></i>BLOG </a></li>
+                    
+                    <li> <a href=""><i class="fa fa-user"></i>LOGIN</a>
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("f_login")}}">Faculty login</a></li>
+                                <li> <a href="{{url_for("login")}}">Student login</a></li>
+                                <li> <a href="">Alumuni login</a></li>
+                            </ul>
+                        </div>
+                    
+                    
+                    </li>
+                    <li> <a href="{{url_for("contact")}}"><i class="fa fa-phone"></i>CONTACT </a></li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="sc">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </div>
+
+           
+          
+
+
+        </div>
+
+
+  <div class="it_i">
+
+  <h1>ADMISSION INFORMAITION</h1>
+
+  <div class="add">
+  
+  <h3>Admission shedule</h3>
+  <p>Eastern University admits students every semester. Admission schedule of the semester showing deadlines for admission form submission, admission test, admission fee payment, registration, withdrawal, class commencement etc. is available on the website of the University. The admission schedule may also be known from the Admission Office and from frequent admission announcements published by the University in the leading newspapers. The students seeking admission should visit Website of Eastern University or contact the Admission Office for admission form and further information.</p>
+  
+  <h3>There are three intakes at Eu</h3>
+  <p>Spring (January – April)
+    Summer (May – August)
+    Fall (September – December)</p>
+    <h3>Admission Test</h3>
+    <p>Due to Covid 19 pandemic circumstances no admission test is required. Candidate will get admission through online as per instruction mentioned below.</p>
+     <h3>Provisional Admision</h3>
+     <p>Students who have appeared at the last required examination for admission may apply for provisional admission. Every student must submit the required certificates and other documents at the time of admission. Applicants seeking admission who are not able to produce one or more documents at the time of admission may be admitted provisionally. All provisionally admitted students are required to submit appropriate documents within a given deadline as a prerequisite for continued enrollment.</P>
+     <h3>Non degree student</h3>
+     <p>student of another university or equivalent educational institution may register in courses as non-degree student on payment of requisite fees for such students. The total number of courses s/he may register in shall not exceed 50 percent of the courses required for the degree.
+
+Course Waiver/Exemption for Graduate Students
+
+A graduate student with undergraduate degree from Eastern University may get waiver or exemption of courses to a maximum of 50% of the total credits required for the degree. A graduate student with undergraduate degree from other universities may get waiver or exemption of courses to a maximum of 35% of the total credits required for the degree. In exceptional cases, the limit may be raised to 40% by the appropriate authority. Transcripts and other supporting documents must be submitted with the application for exemption/waiver.
+student may apply for exemption from courses of other universities in which s/he has at least B – grades and the course contents match at least up to 85% with the contents of the corresponding course at EU.</p>
+
+ <h3>Student identification Card</h3>
+ <p>A new student receives, upon admission, an identification (ID) card with a unique number. This card is used for entering and staying in the campus, attending classes, using the library, internet and computer services, etc. The students must take good care of the ID and must report of its loss, if any, to the Registrar’s Office immediately so that the card can be cancelled to prevent its misuse. The Registrar’s Office will issue a duplicate ID Card upon application and payment of fees by the student. A student is liable to pay for any loss incurred by the University for the missing the card.</p>
+
+ <h3>orientation</h3>
+ <p>All new students must participate in the orientation program at the beginning of the semester. Students are encouraged to bring along their parents / guardians to the orientation ceremony. The orientation program acquaints the students with the academic system of the University, academic rules, educational opportunities, facilities and services available at the University.</p>
+
+ <h3>Admission Office</h3>
+ <p>The Admission Office is located on Campus Building of the University & at the following addresses :<br>
+ Road 6, Block B, Ashulia Model Town, Akran, Savar Dhaka.<br>
+Phone: 09602666651 Cell: 01844169651, 01844169659
+01844169660, 01741300002<br>
+E-mail: admission@easternuni.edu.bd</p>
+
+  </div
+
+
+
+</div>
+
+
+
+ 
+
+
+<!-- **************************HTML CODE FOR CONTACT PAGE************************* -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!-- ****************************footer************************************** -->
+
+<div class="footer">
+
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil, ipsum dolores ab voluptates eos rerum soluta.  <br>Aperiam voluptatum, et fugiat dicta impedit harum ducimus at minima, soluta est voluptatem!</p>
+
+<div class="icons">
+
+    <a href="https://www.facebook.com/"target="blank"><i class="fa fa-2x fa-facebook"></i></a>
+    <a href="https://www.instagram.com/"target="blank"><i class="fa fa-2x fa-instagram"></i></a>
+    <a href="https://www.google.com/"target="blank"><i class="fa fa-2x fa-google"></i></a>
+    <a href="https://twitter.com/?lang=en"target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+    <a href="https://www.youtube.com"target="blank"><i class="fa fa-2x fa-youtube"></i></a>
+
+
+
+</div>
+<p>Made with  <i class="fa fa-heart-o"></i>  by Samaresh Bala Mithun</p>
+
+</div>
+
+
+    <script src="static/js/eu.js"> </script>
+      
+
+
+   
+</body>
+</html>

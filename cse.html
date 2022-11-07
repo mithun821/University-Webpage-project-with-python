@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <link href="/static/css/eu.css" rel="stylesheet">
+     <link href="/static/css/dep.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="dep_it">
+       
+
+
+          
+        <div class="nav">
+            <a href="{{url_for("index")}}"><img src="static/image/logo.png"></a>
+             <div class="e_name">
+
+                <h1>Eastern University</h1>
+            </div> 
+            
+            <div class="nav_link" id="navLinks">
+                <div class="sc">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+            </div>
+
+                <ul>
+                    <li class="active"><a href="{{url_for("index")}}"><i class="fa fa-home"></i>HOME</a></li>
+                    <li> <a href=""><i class="fa fa-user"></i>ABOUT</a>
+                    
+                    
+                    
+            <div class="submenu_1">
+
+                <ul>
+    
+                    <li> <a href="{{url_for("eu_profile")}}">Eu profile</a></li>
+                    <li> <a href="{{url_for("trusty")}}">Trusty board</a></li>
+                    <li> <a href="{{url_for("authority")}}">Authority</a></li>
+                </ul>
+            </div>
+                    
+                    </li>
+                    <li> <a href="{{url_for("course")}}"> <i class="fa fa-clone"></i>ACADEMIC</a>
+                    
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("course")}}">COURSE</a></li>
+                                <li class="hover_me"> <a href="">ADMISSION</a><i class="fa fa-angle-right"></i>
+
+                                    <div class="submenu_2">
+
+                            
+                                        <ul>
+                            
+                                            <li> <a href="{{url_for("tution")}}">TUTION AND FEES</a></li>
+                                            <li> <a href="{{url_for("register")}}">Registration FORM</a></li>
+                                            <li> <a href="{{url_for("cse")}}">PROGRAM</a></li>
+                                            <li> <a href="{{url_for("admission_in")}}">ADMISSION INFORMAITION</a></li>
+
+
+                                        </ul>
+                                                   
+
+
+                                
+                                
+                                
+                                
+                                </li>
+                                <li class="hover_me"> <a href="">FACULTY</a><i class="fa fa-angle-right"></i>
+                                 <div class="submenu_2">
+                                 
+                                        <ul>
+                                           <<li> <a href="{{url_for("law")}}"> CSE</a></li>
+                                           <li> <a href="{{url_for("llb")}}"> Law</a></li>
+                                           <li> <a href="{{url_for("bba")}}"> BBA</a></li>
+                                           <li> <a href="#">English </a></li> 
+
+                                       </ul>
+                                
+                                
+                                
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    </li>
+                   
+
+                    <li> <a href="blog.html"> <i class="fa fa-angellist"></i>BLOG </a></li>
+                    
+                    <li> <a href=""><i class="fa fa-user"></i>LOGIN</a>
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("f_login")}}">Faculty login</a></li>
+                                <li> <a href="{{url_for("login")}}">Student login</a></li>
+                                <li> <a href="">Alumuni login</a></li>
+                            </ul>
+                        </div>
+                    
+                    
+                    </li>
+                    <li> <a href="{{url_for("contact")}}"><i class="fa fa-phone"></i>CONTACT </a></li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="sc">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </div>
+
+           
+          
+
+
+        </div>
+ 
+
+  <div class="it_f">
+
+  <div class="cse">
+  <h3>DEPARTMENT OF CSE</h3>
+   <img src="static/image/cse1.jpg" alt="">
+
+    
+
+
+</div>
+
+ 
+   <h4>MESSEGE FROM THE CHAIRPERSON</h4>
+   <div class="cse_t">
+   <div class="cse_ts">
+    <img src="static/image/milon.jpg" alt="">
+ </div>
+
+ 
+<div class="cse_tf">
+
+<p>We welcome you on behalf of the Department of Computer Science and Engineering (CSE) at Eastern University. Our department makes every effort to improve the educational quality according to the needs of today's students and employers. We have highly qualified, efficient and friendly faculty members who enable our students to gain the skills they need to shape their future.We offer courses along with computing laboratories and projects that improve the students’ learning experience and help them to make connection between theory and practice. We encourage our students to participate in extra-curricular activities, which give them a friendly atmosphere to flourish. We try to produce highly qualified graduates, who will serve the rapidly expanding Computer Science and Engineering fields of Bangladesh and they will be able to face the challenges of international arena....<a href="">Read more</a></p>
+
+</div>
+</div>
+<div class ="mm">
+
+</div>
+<div class="cse">
+  <h3>DEPARTMENT OF LAW</h3>
+   <img src="static/image/law3.jpg" alt="">
+
+    
+
+
+</div>
+
+ 
+   <h4>MESSEGE FROM THE CHAIRPERSON</h4>
+   <div class="cse_t">
+   <div class="cse_ts">
+    <img src="static/image/law2.jpg" alt="">
+ </div>
+
+ 
+<div class="cse_tf">
+
+<p>WWelcome to the Department of English. Our faculty and staff members are dedicated to ensure your success in academic achievement and in your career. We offer core courses in English and World literature as well as academic writing, professional writing, linguistics and ELT. Our programs in English will give you a strong multidimensional foundation for exceling in nearly any career. We offer courses to enhance critical thinking and analytical ability in all kinds of subjects. Computer and ICT are also integral to our program. Our writing courses encompass various issues from both the print and electronic communication. Moreover, the linguistics and ELT courses pave the way of the teacher-learners for their future career. In today’s world academic excellence is paired with cocurricular activities such as debate, theater, music, public speaking and many more.Through different curricular and co-curricular activities, mentoring the young minds has been a signal feature of the department..<a href="">Read more</a></p>
+
+</div>
+</div>
+
+<div class ="mm">
+
+</div>
+
+
+
+<div class="cse">
+  <h3>DEPARTMENT OF BBA</h3>
+ 
+   <img src="static/image/bba1.jpg" alt="">
+
+    
+
+
+</div>
+
+ 
+   <h4>MESSEGE FROM THE CHAIRPERSON</h4>
+   <div class="cse_t">
+   <div class="cse_ts">
+    <img src="static/image/bba.jpg" alt="">
+ </div>
+
+ 
+<div class="cse_tf">
+
+<p>Welcome to the Department of English. Our faculty and staff members are dedicated to ensure your success in academic achievement and in your career. We offer core courses in English and World literature as well as academic writing, professional writing, linguistics and ELT. Our programs in English will give you a strong multidimensional foundation for exceling in nearly any career. We offer courses to enhance critical thinking and analytical ability in all kinds of subjects. Computer and ICT are also integral to our program. Our writing courses encompass various issues from both the print and electronic communication. Moreover, the linguistics and ELT courses pave the way of the teacher-learners for their future career. In today’s world academic excellence is paired with cocurricular activities such as debate, theater, music, public speaking and many more.Through different curricular and co-curricular activities, mentoring the young minds has been a signal feature of the department...<a href="">Read more</a></p>
+
+</div>
+</div>
+
+</div>
+
+ 
+
+
+<!-- **************************HTML CODE FOR CONTACT PAGE************************* -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!-- ****************************footer************************************** -->
+
+<div class="footer">
+
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil, ipsum dolores ab voluptates eos rerum soluta.  <br>Aperiam voluptatum, et fugiat dicta impedit harum ducimus at minima, soluta est voluptatem!</p>
+
+<div class="icons">
+
+    <a href="https://www.facebook.com/"target="blank"><i class="fa fa-2x fa-facebook"></i></a>
+    <a href="https://www.instagram.com/"target="blank"><i class="fa fa-2x fa-instagram"></i></a>
+    <a href="https://www.google.com/"target="blank"><i class="fa fa-2x fa-google"></i></a>
+    <a href="https://twitter.com/?lang=en"target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+    <a href="https://www.youtube.com"target="blank"><i class="fa fa-2x fa-youtube"></i></a>
+
+
+
+</div>
+<p>Made with  <i class="fa fa-heart-o"></i>  by Samaresh Bala Mithun</p>
+
+</div>
+
+
+    <script src="static/js/eu.js"> </script>
+      
+
+
+   
+</body>
+</html>

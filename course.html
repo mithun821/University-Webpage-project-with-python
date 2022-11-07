@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cousre</title>
+    <link href="/static/css/eu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub_header">
+       <div class="nav">
+            <a href="{{url_for("index")}}"><img src="static/image/logo.png"></a>
+             <div class="e_name">
+
+                <h1>Eastern University</h1>
+            </div> 
+            
+            <div class="nav_link" id="navLinks">
+                <div class="sc">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+            </div>
+
+                <ul>
+                    <li class="active"><a href="{{url_for("index")}}"><i class="fa fa-home"></i>HOME</a></li>
+                    <li> <a href=""><i class="fa fa-user"></i>ABOUT</a>
+                    
+                    
+                    
+            <div class="submenu_1">
+
+                <ul>
+    
+                    <li> <a href="{{url_for("eu_profile")}}">Eu profile</a></li>
+                    <li> <a href="{{url_for("trusty")}}">Trusty board</a></li>
+                    <li> <a href="{{url_for("authority")}}">Authority</a></li>
+                </ul>
+            </div>
+                    
+                    </li>
+                    <li> <a href="{{url_for("course")}}"> <i class="fa fa-clone"></i>ACADEMIC</a>
+                    
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("course")}}">COURSE</a></li>
+                                <li class="hover_me"> <a href="">ADMISSION</a><i class="fa fa-angle-right"></i>
+
+                                    <div class="submenu_2">
+
+                            
+                                        <ul>
+                            
+                                            <li> <a href="{{url_for("tution")}}">TUTION AND FEES</a></li>
+                                            <li> <a href="{{url_for("register")}}">Registration form</a></li>
+                                            <li> <a href="{{url_for("cse")}}">PROGRAM</a></li>
+                                            <li> <a href="{{url_for("admission_in")}}">ADMISSION INFORMAITION</a></li>
+
+
+                                        </ul>
+                                                   
+                                    </div>
+
+                                
+                                
+                                
+                                
+                                </li>
+                                <li class="hover_me"> <a href="">FACULTY</a><i class="fa fa-angle-right"></i>
+                                
+                                
+                                <div class="submenu_2">
+                                 
+                                        <ul>
+                                           <<li> <a href="{{url_for("law")}}"> CSE</a></li>
+                                           <li> <a href="{{url_for("llb")}}"> Law</a></li>
+                                           <li> <a href="{{url_for("bba")}}"> BBA</a></li>
+                                           <li> <a href="#">English </a></li> 
+
+                                       </ul>
+                                
+                                
+                                </div>
+                                
+                                </li>
+                                
+                               
+                            </ul>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    </li>
+                   
+
+                    <li> <a href="blog.html"> <i class="fa fa-angellist"></i>BLOG </a></li>
+                    
+                    <li> <a href=""><i class="fa fa-user"></i>LOGIN</a>
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("f_login")}}">Faculty login</a></li>
+                                <li> <a href="{{url_for("login")}}">Student login</a></li>
+                                <li> <a href="">Alumuni login</a></li>
+                            </ul>
+                        </div>
+                    
+                    
+                    </li>
+                    <li> <a href="{{url_for("contact")}}"><i class="fa fa-phone"></i>CONTACT </a></li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="sc">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </div>
+
+           
+          
+
+
+        </div>
+
+ 
+
+      
+</section>
+ <!-- caourse html  -->
+
+
+
+ 
+ <div class="course">
+    <h1> Course we offer</h1>
+    <p>Eastern University hires top-of-the className, talented graduates of highly reputed universities from home and abroad as junior faculty, experienced teachers and researchers as senior faculty andwell known academics aspart time faculty. </p>
+
+    
+ <div class="row">
+     <div class="row_col">
+         <h3>Undergraduate Shift-1</h3>
+         <p>The department of CSE,LAW, BBA,EEE,ENG was eastablished in 2003..Candidates with minimum GPA of 2.50 in both SSC/ Dhakil and HSC/ Alim/ Diploma from Technical Education Board or minimum GPA of 2.00 in one of those exams with total GPA of 6.00 in both the exams are eligible for admission. The GCE students must have passed 5 (five) subjects in O-Level with a minimum GPA of 2.50 and 2 (Two) subjects in A-Level a minimum GPA of 2.00. One "E" grade willbe accepted in "O" level or "A" level</p>
+
+
+     </div>
+
+
+
+     <div class="row_col">
+        <h3>Undergraduate Shift-2</h3>
+        <p>The department of CSE,LAW, BBA,EEE,ENG was eastablished in 2003 .To qualify for the  degree, a student has to pass all the required courses individually , earn a minimum Cumulative Grade Point Average (CGPA) of 2.50 on completion of all individual credit hours and maintain a record of good conduct.Candidates with minimum GPA of 2.50 in both SSC/ Dhakil and HSC/ Alim/ Diploma from Technical Education Board or minimum GPA of 2.00 in one of those exams with total GPA of 6.00 in both the exams are eligible for admission.</p>
+
+
+    </div>
+
+
+    <div class="row_col">
+        <h3>Graduate</h3>
+        <p>Welcome to the Faculty of M.B.A , LL.M ,M.A.E.LL at Eastern University! FBA has been functioning as the most promising Faculty in the University from its very inception in 2003. I have all reasons to testify that FBA is an ideal platform for the aspiring young students from within the country and outside in their quest for choosing an appropriate career in the field of business, either as executives or as entrepreneurs.We are proud of having a strong pool of a very talented and brilliant team of faculty members. FBA has the highest number of senior teachers in the University. Many of our faculties have Ph.D, M-Phil, or Master degrees from foreign universities..</p>
+
+
+    </div>
+
+ </div>       
+</div>
+
+
+ <!-- caourse html  -->
+
+ 
+    
+<!-- write for facilites html code -->
+
+<div class="facilites">
+    <h1> Our Fcailites</h1>
+    <p>Campus Services is responsible for the campus buildings and grounds and all related facilities.  Our office is in 3Rd floor and we are open 7:00am to 5:00pm Monday through Friday.</p>
+        
+
+         <div class="fac_row">
+
+            <div class="fac_col">
+
+                <img src="static/image/c7.jpg" alt="">
+                <h3>World class laibray</h3>
+                <p>Since its inception in 2003, Eastern University has been taking all possible steps to build up a well-equipped modern library. The library is now fully automated through KOHA Integrated Library System, which supports web-based online borrowing and receiving, searching catalogue of books, CDs, journals, newspapers and magazines, full-text online books and journals, auto email alert service, and reservation of books from distant work-stations.</p>
+            </div>
+
+            <div class="fac_col">
+
+                <img src="static/image/c8.jpg" alt="">
+                <h3>Cafeteria</h3>
+                <p>Cafeteria facility is available for both stuffs and students of Eastern University.</p>
+            </div>
+
+            <div class="fac_col">
+
+                <img src="static/image/c2.jpg" alt="">
+                <h3>Hostel</h3>
+                <p>The University has arrangement of a female hostel located nearby the campus. Similar hostel accommodation is available for male students also. Full fledged and comfortable hostel facilities will be available for all students in the University campus under construction in Ashulia.</p>
+            </div>
+         </div>
+
+
+</div>
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ****************************footer************************************** -->
+
+<div class="footer">
+
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil, ipsum dolores ab voluptates eos rerum soluta.  <br>Aperiam voluptatum, et fugiat dicta impedit harum ducimus at minima, soluta est voluptatemThe meticulously designed curricula of the academic programs combine and ye tbalance the broad- based and the in-depth learning, and emphasize “knowing, doing and being” of the students. The Curricula are of international standard and are upgraded and updated regularly to make it relevant to the advancement of the discipline and the future job and professional requirements of the students</p>
+
+<div class="icons">
+
+    <a href="https://www.facebook.com/"target="blank"><i class="fa fa-2x fa-facebook"></i></a>
+    <a href="https://www.instagram.com/"target="blank"><i class="fa fa-2x fa-instagram"></i></a>
+    <a href="https://www.google.com/"target="blank"><i class="fa fa-2x fa-google"></i></a>
+    <a href="https://twitter.com/?lang=en"target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+    <a href="https://www.youtube.com"target="blank"><i class="fa fa-2x fa-youtube"></i></a>
+
+
+
+</div>
+<p>Made with  <i class="fa fa-heart-o"></i>  by Samaresh Bala Mithun</p>
+
+</div>
+
+
+   <script src="static/js/eu.js"> </script>
+      
+
+
+   
+</body>
+</html>
