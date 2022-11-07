@@ -1,0 +1,179 @@
+.dep_it{
+    
+    height: 470vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/static/image/background.jpg);
+     background-position: center;
+    background-size: cover; 
+   
+    
+   
+    
+}
+
+
+
+
+.cse{
+
+    margin:20px;
+
+}
+.cse h3{
+    color:#fff;
+    margin-top: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+    text-align:center;
+
+
+}
+.cse img{
+
+    width:60%px;
+    height: 500px;
+    border-radius: 5%; 
+    margin-left: 50px;
+    margin-top: 13px;
+}
+
+.cse_t{
+    margin: 20px;
+   display:flex;
+   width: 80%;
+ 
+}
+
+
+  
+
+ h4{
+    color: rgba(95, 202, 235, 0.884);
+    margin-top: 20px;
+    margin-bottom: 6px;
+    margin-left: 70px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cse_ts img{
+    margin-left: 50px;
+    width: 260px;
+    height: 200px;
+    padding: 6px;
+    margin-right: 6px;
+
+
+}
+.cse_tf p{
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    color: cornsilk;
+    margin-top: 2px;
+
+}
+.cse_tf p a{
+    color: plum;
+}
+.mm{
+
+    border: 2px solid white;
+}
+
+/*########################trusty borf design####################*/
+
+.tr1 h3{
+
+    color:#fff;
+    margin-top: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 35px;
+    text-align:center;
+
+}
+
+.m1{
+    border: 1px solid rgb(49, 43, 43);
+
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.m2{
+    border: 1px solid rgb(49, 43, 43);
+
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: #fff;
+}
+
+
+.trs1{
+    display: flex;
+    width: 100%;
+    margin-left:3%;
+   
+}
+
+.trs2{
+
+ 
+    float: left;
+    border: 0.5px solid rgb(49, 43, 43);
+   
+}
+
+.left {
+    width: 8%;
+
+}
+.middle{
+width:45%;
+}
+
+.right{
+    width: 47%;
+}
+
+.trs2 h4{
+
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+
+
+.trs2 p{
+  
+    
+    margin-left: 70px;
+    margin-bottom: 13px;
+    color: thistle;
+    font-size: 32px;
+    margin-top: 5px;
+    padding-top:7px;
+}
+
+.trusty_it{
+    
+    height: 170vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/static/image/background.jpg);
+     background-position: center;
+    background-size: cover; 
+}
+  
+
+.tr1{
+    height:40px;
+}
+  
